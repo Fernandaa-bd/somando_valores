@@ -1,0 +1,90 @@
+body{
+    font-family: Montserrat, sans-serif;
+    background-image: url(bg-lua.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(px);
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.281);
+    box-shadow: 5px 5px 10px 25px #ffffff70;
+    backdrop-filter: blur(30px);
+    box-shadow: 5px 5px 50px 5px #818181a9;
+    padding: 15px 20px;
+    color: #fff;
+}
+
+.container h1{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.container input{
+    background: transparent;
+    border: 1px solid #ffffff70;
+    height: 30px;
+    outline: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.container input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.container input::placeholder{
+    color: #fff;
+}
+
+.container input.btn-soma{
+    transition: .3s;
+    font-weight: 300;
+    width: 97%;
+    height: 35px;
+}
+
+.container input.btn-soma:hover, .container button.reset:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.container .result{
+    color: transparent;
+    background: transparent;
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    width: 97%;
+    transition: .5s;
+}
+
+.container button.reset{
+    background: transparent;
+    color: #fff;
+    padding: 10px;
+    width: 97%;
+    border: 1px solid #ffffff70;
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: .5s;
+}
